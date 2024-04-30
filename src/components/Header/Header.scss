@@ -1,0 +1,50 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+
+    &__logo{
+        font-size: 30px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    &__social{
+        margin: 0 auto 0 50px;
+    }
+
+    &__link{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        margin-right: 10px;
+        transition: .5s;
+    }
+
+    &__link:hover{
+        background: #fff;
+    }
+
+    &__link i {
+        font-size: 20px;
+        color: #fff;
+        transition : .5s;
+    }
+
+    &__link:hover i {
+        color: #444;
+    }
+}
